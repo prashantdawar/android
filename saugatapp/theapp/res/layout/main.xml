@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.theapp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnPressed"
+        android:text="@string/btn_label" />
+
+    <com.example.theapp.LovelyView
+        android:id="@+id/customView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        custom:circleColor="#ff0099"
+        custom:circleLabel="Hello"
+        custom:labelColor="#ffff66" />
+
+</LinearLayout>

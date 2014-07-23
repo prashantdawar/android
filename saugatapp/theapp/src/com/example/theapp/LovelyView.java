@@ -7,7 +7,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.RectF;
-import android.os.AsyncTask;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
@@ -86,7 +85,12 @@ public class LovelyView extends View{
 		canvas.drawText(circleText, viewWidthHalf, viewHeightHalf, circlePaint);
 		
 		
-
+		/*try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
 		//Green Ring on pink circle
 		final RectF rect = new RectF();
 	    //Example values

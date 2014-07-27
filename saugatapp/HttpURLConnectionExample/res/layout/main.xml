@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/loadWebpageViaGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Google via GET" >
+    </Button>
+    <Button
+        android:id="@+id/loadWebpageViaPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Yahoo via POST" >
+    </Button>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Placeholder" >
+    </TextView>
+
+</LinearLayout> 
